@@ -3,7 +3,7 @@
 
 #include "../ffmpeg.h"
 #include "InputStream.h"
-#include "../Frame Sinks/VideoFrameSink.h"
+#include "../Frame_Sinks/VideoFrameSink.h"
 #include "../Info/VideoStreamInfo.h"
 
 namespace ffmpegcpp

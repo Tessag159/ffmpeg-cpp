@@ -3,7 +3,7 @@
 
 #include "../ffmpeg.h"
 #include "../std.h"
-#include "../Frame Sinks/FrameSink.h"
+#include "../Frame_Sinks/FrameSink.h"
 #include "../Info/ContainerInfo.h"
 #include "StreamData.h"
 
