@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CODEC_DEDUCER_H
+#define CODEC_DEDUCER_H
 
 #include "ffmpeg.h"
 
@@ -18,3 +19,5 @@ namespace ffmpegcpp
 	};
 
 }
+
+#endif

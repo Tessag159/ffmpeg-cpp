@@ -1,14 +1,15 @@
-#pragma once
+#ifndef AUDIO_ENCODER_H
+#define AUDIO_ENCODER_H
 
-#include "ffmpeg.h"
-#include "std.h"
+#include "../ffmpeg.h"
+#include "../std.h"
 
-#include "Frame Sinks/AudioFrameSink.h"
-#include "Codecs/AudioCodec.h"
-#include "ConvertedAudioProcessor.h"
-#include "AudioFormatConverter.h"
-#include "Muxing/Muxer.h"
-#include "Muxing/OutputStream.h"
+#include "AudioFrameSink.h"
+#include "../Codecs/AudioCodec.h"
+#include "../ConvertedAudioProcessor.h"
+#include "./AudioFormatConverter.h"
+#include "./Muxing/Muxer.h"
+#include "./Muxing/OutputStream.h"
 #include "OneInputFrameSink.h"
 
 namespace ffmpegcpp
@@ -52,3 +53,4 @@ namespace ffmpegcpp
 	};
 }
 
+#endif

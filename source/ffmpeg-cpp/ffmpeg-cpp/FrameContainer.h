@@ -1,4 +1,5 @@
-#pragma once
+#ifndef FRAME_CONTAINER_H
+#define FRAME_CONTAINER_H
 
 #include "ffmpeg.h"
 
@@ -22,3 +23,4 @@ namespace ffmpegcpp
 
 }
 
+#endif

@@ -1,7 +1,8 @@
-#pragma once
+#ifndef FRAME_WRITER_H
+#define FRAME_WRITER_H
 
-#include "ffmpeg.h"
-#include "Demuxing/StreamData.h"
+#include "../ffmpeg.h"
+#include "../Demuxing/StreamData.h"
 
 namespace ffmpegcpp
 {
@@ -18,3 +19,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

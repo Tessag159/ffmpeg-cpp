@@ -1,4 +1,5 @@
-#pragma once
+#ifndef OPEN_CODEC_H
+#define OPEN_CODEC_H
 
 #include "ffmpeg.h"
 
@@ -20,3 +21,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

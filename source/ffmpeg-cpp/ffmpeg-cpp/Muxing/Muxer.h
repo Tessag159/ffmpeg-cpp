@@ -1,7 +1,8 @@
-#pragma once
+#ifndef MUXER_H
+#define MUXER_H
 
-#include "ffmpeg.h"
-#include "std.h"
+#include "../ffmpeg.h"
+#include "../std.h"
 
 
 namespace ffmpegcpp {
@@ -45,3 +46,5 @@ namespace ffmpegcpp {
 		bool opened = false;
 	};
 }
+
+#endif

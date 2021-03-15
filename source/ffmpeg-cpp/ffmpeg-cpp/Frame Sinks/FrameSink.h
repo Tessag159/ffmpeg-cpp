@@ -1,6 +1,7 @@
-#pragma once
+#ifndef FRAME_SINK_H
+#define FRAME_SINK_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 #include "FrameSinkStream.h"
 
 namespace ffmpegcpp
@@ -18,3 +19,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

@@ -1,10 +1,11 @@
-#pragma once
+#ifndef INPUT_STREAM_H
+#define INPUT_STREAM_H
 
-#include "ffmpeg.h"
-#include "std.h"
-#include "Frame Sinks/FrameSink.h"
-#include "Info/ContainerInfo.h"
-#include "Demuxing/StreamData.h"
+#include "../ffmpeg.h"
+#include "../std.h"
+#include "../Frame Sinks/FrameSink.h"
+#include "../Info/ContainerInfo.h"
+#include "StreamData.h"
 
 namespace ffmpegcpp
 {
@@ -58,3 +59,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

@@ -1,3 +1,5 @@
+#ifndef FFMPEG_CPP
+#define FFMPEG_CPP
 
 #include "ffmpeg.h"
 
@@ -25,3 +27,5 @@
 #include "Codecs/Codec.h"
 
 #include "FFmpegException.h"
+
+#endif

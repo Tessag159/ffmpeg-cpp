@@ -1,6 +1,7 @@
-#pragma once
+#ifndef RAW_AUDIO_FILE_SOURCE_H
+#define RAW_AUDIO_FILE_SOURCE_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 
 #include "InputSource.h"
 #include "Demuxer.h"
@@ -28,3 +29,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

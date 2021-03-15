@@ -1,7 +1,8 @@
-#pragma once
+#ifndef FILTER_H
+#define FILTER_H
 
-#include "ffmpeg.h"
-#include "std.h"
+#include "../ffmpeg.h"
+#include "../std.h"
 
 #include "VideoFrameSink.h"
 #include "VideoFilterInput.h"
@@ -56,3 +57,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

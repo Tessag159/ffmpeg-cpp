@@ -1,4 +1,6 @@
-#pragma once
+#ifndef JPG_CODEC_H
+#define JPG_CODEC_H
+
 #include "VideoCodec.h"
 
 namespace ffmpegcpp
@@ -16,3 +18,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

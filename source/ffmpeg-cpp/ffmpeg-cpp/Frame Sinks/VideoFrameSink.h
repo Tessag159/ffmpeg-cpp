@@ -1,4 +1,5 @@
-#pragma once
+#ifndef VIDEO_FRAME_SINK_H
+#define VIDEO_FRAME_SINK_H
 
 #include "FrameSink.h"
 
@@ -16,3 +17,5 @@ namespace ffmpegcpp
 		virtual ~VideoFrameSink() {}
 	};
 }
+
+#endif

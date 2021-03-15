@@ -1,9 +1,10 @@
-#pragma once
+#ifndef VIDEO_INPUT_STREAM_H
+#define VIDEO_INPUT_STREAM_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 #include "InputStream.h"
-#include "Frame Sinks/VideoFrameSink.h"
-#include "Info/VideoStreamInfo.h"
+#include "../Frame Sinks/VideoFrameSink.h"
+#include "../Info/VideoStreamInfo.h"
 
 namespace ffmpegcpp
 {
@@ -23,3 +24,5 @@ namespace ffmpegcpp
 
 	};
 }
+
+#endif

@@ -1,7 +1,8 @@
-#pragma once
+#ifndef OUTPUT_STREAM_H
+#define OUTPUT_STREAM_H
 
-#include "ffmpeg.h"
-#include "Codecs/Codec.h"
+#include "../ffmpeg.h"
+#include "../Codecs/Codec.h"
 #include "Muxer.h"
 
 namespace ffmpegcpp
@@ -36,3 +37,5 @@ namespace ffmpegcpp
 		Muxer* muxer;
 	};
 }
+
+#endif

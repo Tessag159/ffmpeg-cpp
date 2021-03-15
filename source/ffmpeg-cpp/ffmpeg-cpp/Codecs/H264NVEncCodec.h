@@ -1,4 +1,6 @@
-#pragma once
+#ifndef H_264_NVENC_CODEC_H
+#define H_264_NVENC_CODEC_H
+
 #include "VideoCodec.h"
 
 namespace ffmpegcpp
@@ -16,3 +18,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

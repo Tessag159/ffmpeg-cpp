@@ -1,9 +1,10 @@
-#pragma once
+#ifndef CODEC_H
+#define CODEC_H
 
-#include "ffmpeg.h"
-#include "std.h"
+#include "../ffmpeg.h"
+#include "../std.h"
 
-#include "OpenCodec.h"
+#include "../OpenCodec.h"
 
 namespace ffmpegcpp
 {
@@ -39,3 +40,5 @@ namespace ffmpegcpp
 		bool opened = false;
 	};
 }
+
+#endif

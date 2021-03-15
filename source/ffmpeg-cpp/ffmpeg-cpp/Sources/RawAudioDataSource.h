@@ -1,7 +1,8 @@
-#pragma once
+#ifndef RAW_AUDIO_DATA_SOURCE_H
+#define RAW_AUDIO_DATA_SOURCE_H
 
-#include "ffmpeg.h"
-#include "Frame Sinks/AudioFrameSink.h"
+#include "../ffmpeg.h"
+#include "../Frame Sinks/AudioFrameSink.h"
 
 namespace ffmpegcpp
 {
@@ -32,3 +33,5 @@ namespace ffmpegcpp
 		StreamData* metaData = nullptr;
 	};
 }
+
+#endif

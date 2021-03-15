@@ -1,7 +1,8 @@
-#pragma once
+#ifndef VIDEO_OUTPUT_STREAM_H
+#define VIDEO_OUTPUT_STREAM_H
 
-#include "ffmpeg.h"
-#include "Codecs/Codec.h"
+#include "../ffmpeg.h"
+#include "../Codecs/Codec.h"
 #include "OutputStream.h"
 #include "Muxer.h"
 
@@ -34,3 +35,5 @@ namespace ffmpegcpp
 		AVRational codecTimeBase;
 	};
 }
+
+#endif

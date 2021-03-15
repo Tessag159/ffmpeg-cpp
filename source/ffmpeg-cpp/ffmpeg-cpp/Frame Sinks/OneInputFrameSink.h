@@ -1,6 +1,7 @@
-#pragma once
+#ifndef ONE_INPUT_FRAME_SINK_H
+#define ONE_INPUT_FRAME_SINK_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 
 #include "FrameWriter.h"
 #include "FrameSink.h"
@@ -32,3 +33,4 @@ namespace ffmpegcpp
 	};
 }
 
+#endif

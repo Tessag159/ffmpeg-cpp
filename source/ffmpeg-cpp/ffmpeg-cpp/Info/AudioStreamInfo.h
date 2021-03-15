@@ -1,6 +1,7 @@
-#pragma once
+#ifndef AUDIO_STREAM_INFO_H
+#define AUDIO_STREAM_INFO_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 
 namespace ffmpegcpp
 {
@@ -19,3 +20,5 @@ namespace ffmpegcpp
 
 	};
 }
+
+#endif

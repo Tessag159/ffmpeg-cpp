@@ -1,4 +1,5 @@
-#pragma once
+#ifndef FFMPEG_EXCEPTION_H
+#define FFMPEG_EXCEPTION_H
 
 #include "ffmpeg.h"
 
@@ -15,7 +16,7 @@ namespace ffmpegcpp
 
 		FFmpegException(std::string error, int returnValue);
 
-		virtual char const* what() const
+		virtual char const* what() const noexcept override
 		{
 			return std::exception::what();
 		}
@@ -26,3 +27,5 @@ namespace ffmpegcpp
 		char error[AV_ERROR_MAX_STRING_SIZE];
 	};
 }
+
+#endif

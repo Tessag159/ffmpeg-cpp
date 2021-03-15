@@ -1,9 +1,10 @@
-#pragma once
+#ifndef CONTAINER_INFO_H
+#define CONTAINER_INFO_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 #include "VideoStreamInfo.h"
 #include "AudioStreamInfo.h"
-#include "std.h"
+#include "../std.h"
 
 namespace ffmpegcpp
 {
@@ -21,3 +22,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

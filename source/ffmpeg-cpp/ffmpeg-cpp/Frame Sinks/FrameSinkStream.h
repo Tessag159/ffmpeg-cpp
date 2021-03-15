@@ -1,8 +1,9 @@
-#pragma once
+#ifndef FRAME_SINK_STREAM_H
+#define FRAME_SINK_STREAM_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 #include "FrameWriter.h"
-#include "Demuxing/Streamdata.h"
+#include "../Demuxing/StreamData.h"
 
 namespace ffmpegcpp
 {
@@ -24,3 +25,5 @@ namespace ffmpegcpp
 		int streamIndex;
 	};
 }
+
+#endif

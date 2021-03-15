@@ -1,7 +1,8 @@
-#pragma once
+#ifndef VIDEO_FILTER_INPUT_H
+#define VIDEO_FILTER_INPUT_H
 
-#include "ffmpeg.h"
-#include "Demuxing/StreamData.h"
+#include "../ffmpeg.h"
+#include "../Demuxing/StreamData.h"
 
 namespace ffmpegcpp
 {
@@ -37,3 +38,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

@@ -1,7 +1,8 @@
-#pragma once
+#ifndef RAW_VIDEO_DATA_SOURCE_H
+#define RAW_VIDEO_DATA_SOURCE_H
 
-#include "ffmpeg.h"
-#include "Frame Sinks/VideoFrameSink.h"
+#include "../ffmpeg.h"
+#include "../Frame Sinks/VideoFrameSink.h"
 
 namespace ffmpegcpp
 {
@@ -39,3 +40,5 @@ namespace ffmpegcpp
 		struct SwsContext* swsContext = nullptr;
 	};
 }
+
+#endif

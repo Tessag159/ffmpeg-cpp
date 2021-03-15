@@ -1,11 +1,12 @@
-#pragma once
+#ifndef VIDEO_ENCODER_H
+#define VIDEO_ENCODER_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 
-#include "Frame Sinks/VideoFrameSink.h"
-#include "Codecs/VideoCodec.h"
-#include "VideoFormatConverter.h"
-#include "Muxing/Muxer.h"
+#include "VideoFrameSink.h"
+#include "../Codecs/VideoCodec.h"
+#include "../VideoFormatConverter.h"
+#include "../Muxing/Muxer.h"
 #include "OneInputFrameSink.h"
 
 namespace ffmpegcpp
@@ -51,3 +52,4 @@ namespace ffmpegcpp
 	};
 }
 
+#endif

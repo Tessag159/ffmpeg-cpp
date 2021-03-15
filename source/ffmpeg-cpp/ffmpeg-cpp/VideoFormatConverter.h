@@ -1,4 +1,5 @@
-#pragma once
+#ifndef VIDEO_FORMAT_CONVERTER_H
+#define VIDEO_FORMAT_CONVERTER_H
 
 #include "ffmpeg.h"
 #include "ConvertedAudioProcessor.h"
@@ -33,3 +34,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef AUDIO_FILTER_H
+#define AUDIO_FILTER_H
+
 class AudioFilter
 {
 public:
@@ -6,3 +8,5 @@ public:
 	~AudioFilter();
 };
 
+
+#endif

@@ -1,8 +1,9 @@
-#pragma once
+#ifndef AUDIO_INPUT_STREAM_H
+#define AUDIO_INPUT_STREAM_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 #include "InputStream.h"
-#include "Frame Sinks/AudioFrameSink.h"
+#include "../Frame Sinks/AudioFrameSink.h"
 
 namespace ffmpegcpp
 {
@@ -21,3 +22,5 @@ namespace ffmpegcpp
 		virtual void ConfigureCodecContext();
 	};
 }
+
+#endif

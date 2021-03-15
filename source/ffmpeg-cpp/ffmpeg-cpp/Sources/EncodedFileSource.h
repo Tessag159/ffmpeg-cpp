@@ -1,7 +1,8 @@
-#pragma once
+#ifndef ENCODED_FILE_SOURCE_H
+#define ENCODED_FILE_SOURCE_H
 
-#include "ffmpeg.h"
-#include "Frame Sinks/FrameSink.h"
+#include "../ffmpeg.h"
+#include "../Frame Sinks/FrameSink.h"
 #include "InputSource.h"
 
 namespace ffmpegcpp
@@ -50,3 +51,5 @@ namespace ffmpegcpp
 		StreamData* metaData = nullptr;
 	};
 }
+
+#endif

@@ -1,6 +1,7 @@
-#pragma once
+#ifndef VIDEO_STREAM_INFO_H
+#define VIDEO_STREAM_INFO_H
 
-#include "ffmpeg.h"
+#include "../ffmpeg.h"
 
 namespace ffmpegcpp
 {
@@ -18,3 +19,5 @@ namespace ffmpegcpp
 		int width, height;
 	};
 }
+
+#endif

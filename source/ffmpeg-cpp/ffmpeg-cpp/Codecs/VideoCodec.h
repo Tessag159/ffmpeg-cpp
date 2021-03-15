@@ -1,7 +1,8 @@
-#pragma once
+#ifndef VIDEO_CODEC_H
+#define VIDEO_CODEC_H
 
 #include "Codec.h"
-#include "OpenCodec.h"
+#include "../OpenCodec.h"
 
 namespace ffmpegcpp
 {
@@ -29,3 +30,5 @@ namespace ffmpegcpp
 
 
 }
+
+#endif
