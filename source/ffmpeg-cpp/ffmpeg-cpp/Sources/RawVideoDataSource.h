@@ -2,7 +2,7 @@
 #define RAW_VIDEO_DATA_SOURCE_H
 
 #include "../ffmpeg.h"
-#include "../Frame Sinks/VideoFrameSink.h"
+#include "../Frame_Sinks/VideoFrameSink.h"
 
 namespace ffmpegcpp
 {

@@ -2,6 +2,7 @@
 #define FFMPEG_CPP
 
 #include "ffmpeg.h"
+#include "FFmpegConfig.h"
 
 #include "Muxing/Muxer.h"
 

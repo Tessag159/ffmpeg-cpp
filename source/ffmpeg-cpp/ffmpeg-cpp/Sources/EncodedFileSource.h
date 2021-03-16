@@ -2,7 +2,7 @@
 #define ENCODED_FILE_SOURCE_H
 
 #include "../ffmpeg.h"
-#include "../Frame Sinks/FrameSink.h"
+#include "../Frame_Sinks/FrameSink.h"
 #include "InputSource.h"
 
 namespace ffmpegcpp

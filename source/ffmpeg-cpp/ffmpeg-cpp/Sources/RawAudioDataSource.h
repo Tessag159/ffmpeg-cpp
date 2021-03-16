@@ -2,7 +2,7 @@
 #define RAW_AUDIO_DATA_SOURCE_H
 
 #include "../ffmpeg.h"
-#include "../Frame Sinks/AudioFrameSink.h"
+#include "../Frame_Sinks/AudioFrameSink.h"
 
 namespace ffmpegcpp
 {

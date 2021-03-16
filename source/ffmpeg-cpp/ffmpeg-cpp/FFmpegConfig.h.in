@@ -1,0 +1,2 @@
+#define FFmpeg_VERSION_MAJOR @FFmpeg_VERSION_MAJOR@
+#define FFmpeg_VERSION_MINOR @FFmpeg_VERSION_MINOR@
